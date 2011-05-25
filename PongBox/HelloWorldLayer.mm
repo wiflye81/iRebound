@@ -125,15 +125,28 @@ const float kPointsToMeterRatio = CC_CONTENT_SCALE_FACTOR() * 32.0f;
         b2Body *bodyA = contact.fixtureA->GetBody();
         b2Body *bodyB = contact.fixtureB->GetBody();
         
-        b2Manifold* Manifold = contact.GetManifold();
-        
-        if (((bodyA == groundBody) && (bodyB == body)) || ((bodyB == body) && (bodyB == groundBody)))
+        if ((bodyA == groundBody) && (bodyB == body))
         {
-            NSLog(@"Collision avec le tour");
+            //NSLog(@"Collision avec le tour");
             //Vibration quand on touche le tour
             //AudioServicesPlaySystemSound (kSystemSoundID_Vibrate);
-            
+            int res_x = bodyB->GetPosition().x * 16;
+            int res_y = bodyB->GetPosition().y * 16;
+            NSLog(@"ball x = %i et y = %i", res_x, res_y);
+            if (res_x > ((w / 2) - 40)) {
+                NSLog(@"Gagné");
+            }
         }
+        if ((bodyB == body) && (bodyB == groundBody))
+        {
+            int res_x = bodyA->GetPosition().x * 16;
+            int res_y = bodyA->GetPosition().y * 16;
+            NSLog(@"ball x = %i et y = %i", res_x, res_y);
+            if (res_x > ((w / 2) - 40)) {
+                NSLog(@"Gagné");
+            }
+        }
+        
     }
     
     // Code de gestion du gyroscope

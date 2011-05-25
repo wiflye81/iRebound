@@ -512,7 +512,6 @@
 		A5D3A1C41387FEC800A413FE = {
 			isa = PBXGroup;
 			children = (
-				A583B9AE138C4D5100CF3863 /* AudioToolbox.framework */,
 				A5D3A1E31387FEC800A413FE /* PongBox */,
 				A5D3A1D21387FEC800A413FE /* Frameworks */,
 				A5D3A1D01387FEC800A413FE /* Products */,
@@ -530,6 +529,7 @@
 		A5D3A1D21387FEC800A413FE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A583B9AE138C4D5100CF3863 /* AudioToolbox.framework */,
 				A5079D93138972C100134C7F /* CoreMotion.framework */,
 				A5D3A1D31387FEC800A413FE /* QuartzCore.framework */,
 				A5D3A1D51387FEC800A413FE /* OpenGLES.framework */,
