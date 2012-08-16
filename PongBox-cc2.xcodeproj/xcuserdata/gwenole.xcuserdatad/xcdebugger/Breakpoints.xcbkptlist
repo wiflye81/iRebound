@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "1.0">
+   <FileBreakpoints>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "PongBox-cc2/PongBoxLayer.mm"
+         timestampString = "348948954.906917"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "141"
+         endingLineNumber = "141"
+         landmarkName = "-init"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "PongBox-cc2/GameObject.h"
+         timestampString = "348936930.453266"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "20"
+         endingLineNumber = "20"
+         landmarkName = "gameLayer"
+         landmarkType = "19">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "PongBox-cc2/libs/Box2D/Common/b2Settings.h"
+         timestampString = "347834875.144713"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "22"
+         endingLineNumber = "22">
+      </FileBreakpoint>
+   </FileBreakpoints>
+</Bucket>
